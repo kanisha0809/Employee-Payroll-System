@@ -13,6 +13,9 @@ Polymorphism: The calculateSalary() method is overridden in the FullTimeEmployee
 
 # Classes
 Employee: An abstract class representing an employee with common attributes like name and id. It contains an abstract method calculateSalary() to calculate the salary of the employee.
+
 FullTimeEmployee: A subclass of Employee representing a full-time employee. It implements the calculateSalary() method to return the monthly salary.
+
 PartTimeEmployee: A subclass of Employee representing a part-time employee. It implements the calculateSalary() method to return the salary based on hourly rate and hours worked.
+
 PayrollSystem: A class to manage the list of employees. It provides methods to add, remove, and display employees.
