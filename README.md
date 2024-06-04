@@ -8,7 +8,9 @@ The Employee Payroll System allows users to manage full-time and part-time emplo
 This project emphasizes the following OOP concepts:
 
 Inheritance: The FullTimeEmployee and PartTimeEmployee classes inherit from the Employee class, inheriting its properties and methods.
+
 Abstraction: The Employee class is declared as an abstract class, and the calculateSalary() method is declared as abstract, providing a blueprint for subclasses to implement.
+
 Polymorphism: The calculateSalary() method is overridden in the FullTimeEmployee and PartTimeEmployee classes to provide specific implementations.
 
 # Classes
